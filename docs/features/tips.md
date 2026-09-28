@@ -36,3 +36,5 @@ When the tip interface is hidden, the built-in sidebar shows a Muxy 2 Beta card 
 beta releases. In an icon-only sidebar, the sparkles button opens the same card in a popover. Closing the card hides it
 permanently without confirmation and stores `muxy.muxy2BetaPromo.dismissed` in `UserDefaults`. The card is not a
 setting and is not written to `settings.json`. While tips are visible, Muxy 2 Beta appears as a regular tip instead.
+
+Tip descriptions support text selection and copying in both the sidebar card and the compact-sidebar popover.

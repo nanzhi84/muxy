@@ -44,6 +44,7 @@ private struct SidebarTipContent: View {
                     .foregroundStyle(MuxyTheme.fg)
                     .fixedSize(horizontal: false, vertical: true)
                     .tint(MuxyTheme.accent)
+                    .textSelection(.enabled)
 
                 controls
             }
